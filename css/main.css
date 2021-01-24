@@ -40,9 +40,15 @@ nav ul {
 
 nav li {
     display: flex;
+    margin-left: 5px;
 }
 
-nav img {
+#google-apps {
+    height: 20px;
+    width: 20px;
+}
+
+#profile-pic {
     border-radius: 50%;
     max-width: 2rem;
 }
