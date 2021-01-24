@@ -41,6 +41,20 @@ nav img {
     max-width: 2rem;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
 #search-input {
     width: 30rem;
     height: 40px;
@@ -57,6 +71,8 @@ nav img {
     border-radius: 24px;
     width: 582px;
     height: 44px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #searchbar:hover {
